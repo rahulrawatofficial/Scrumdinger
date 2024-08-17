@@ -11,6 +11,8 @@
 		471C8D1A2C70BBEE004154AB /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471C8D192C70BBEE004154AB /* ScrumProgressViewStyle.swift */; };
 		471C8D1C2C70BDBF004154AB /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471C8D1B2C70BDBF004154AB /* ScrumTimer.swift */; };
 		471C8D1E2C70BF92004154AB /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471C8D1D2C70BF92004154AB /* MeetingFooterView.swift */; };
+		471C8D202C70C462004154AB /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471C8D1F2C70C462004154AB /* AVPlayer+Ding.swift */; };
+		471C8D232C70C498004154AB /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 471C8D222C70C498004154AB /* ding.wav */; };
 		477A65302C6A9F7C00CEF149 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A652F2C6A9F7C00CEF149 /* DetailView.swift */; };
 		477A65322C6AC17E00CEF149 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A65312C6AC17E00CEF149 /* DetailEditView.swift */; };
 		477A65342C6BC37600CEF149 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A65332C6BC37600CEF149 /* ThemeView.swift */; };
@@ -51,6 +53,8 @@
 		471C8D192C70BBEE004154AB /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		471C8D1B2C70BDBF004154AB /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		471C8D1D2C70BF92004154AB /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		471C8D1F2C70C462004154AB /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		471C8D222C70C498004154AB /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		477A652F2C6A9F7C00CEF149 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		477A65312C6AC17E00CEF149 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		477A65332C6BC37600CEF149 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		471C8D212C70C478004154AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				471C8D222C70C498004154AB /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		47EDCCD82C6A6EF200EA5610 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +132,7 @@
 		47EDCCE32C6A6EF200EA5610 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				471C8D212C70C478004154AB /* Resources */,
 				47EDCD192C6A804100EA5610 /* Views */,
 				47EDCD0E2C6A770300EA5610 /* Models */,
 				47EDCCE42C6A6EF200EA5610 /* ScrumdingerApp.swift */,
@@ -160,6 +173,7 @@
 				47EDCD112C6A791600EA5610 /* DailyScrum.swift */,
 				47EDCD0F2C6A772400EA5610 /* Theme.swift */,
 				471C8D1B2C70BDBF004154AB /* ScrumTimer.swift */,
+				471C8D1F2C70C462004154AB /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -286,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471C8D232C70C498004154AB /* ding.wav in Resources */,
 				47EDCCEC2C6A6EF300EA5610 /* Preview Assets.xcassets in Resources */,
 				47EDCCE92C6A6EF300EA5610 /* Assets.xcassets in Resources */,
 			);
@@ -327,6 +342,7 @@
 				47EDCCE52C6A6EF200EA5610 /* ScrumdingerApp.swift in Sources */,
 				477A65342C6BC37600CEF149 /* ThemeView.swift in Sources */,
 				47EDCD182C6A7EF200EA5610 /* CardView.swift in Sources */,
+				471C8D202C70C462004154AB /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
